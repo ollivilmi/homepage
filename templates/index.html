@@ -17,22 +17,28 @@
         <div class="row">
           <div class="col-sm-3">
             <p>Programming</p>
-            <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+            <img class="cvclick" id="cv1" src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
           </div>
           <div class="col-sm-3"> 
             <p>Education</p>
-            <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+            <img class="cvclick" id="cv2" src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
           </div>
           <div class="col-sm-3"> 
             <p>Experience</p>
-            <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+            <img class="cvclick" id="cv3" src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
           </div>
           <div class="col-sm-3">
             <p>Projects</p>
-            <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+            <img class="cvclick" id="cv4" src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
           </div>
         </div>
     </div><br>
 
+    <div id="cvblock" class="container-fluid">
+        <h1>Section 1</h1>
+        <p id="cvp"></p>
+    </div>
+
     <br><br>
+    <script src="{{ url_for('static', filename='scripts_index.js') }}"></script>
 {% endblock %}

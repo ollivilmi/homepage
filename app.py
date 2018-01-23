@@ -8,13 +8,13 @@ jsglue = JSGlue(app)
 def index():
 	return render_template("index.html")
 	
-@app.route('/experience')
-def experience():
-	return render_template("experience.html")
+@app.route('/bouldering')
+def bouldering():
+	return render_template("bouldering.html")
 	
-@app.route('/hobbies')
-def hobbies():
-	return render_template("hobbies.html")
+@app.route('/badminton')
+def badminton():
+	return render_template("badminton.html")
 
 @app.route('/personality')
 def personality():

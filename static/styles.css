@@ -72,3 +72,10 @@ main td
     background: #4CAF50; /* Green background */
     cursor: pointer; /* Cursor on hover */
 }
+
+#cvblock {
+    padding-top:50px;
+    height:500px;
+    color: #fff!important;
+    background-color: #1E88E5!important;
+}
